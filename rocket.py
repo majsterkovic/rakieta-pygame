@@ -28,7 +28,7 @@ class Rocket(object):
 
         #fizyka
         self.vel *= 0.8
-        self.vel = Vector2(0, -1)
+        self.vel -= Vector2(0, -1)
 
         self.vel += self.acc
         self.pos += self.vel
